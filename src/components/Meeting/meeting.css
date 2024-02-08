@@ -1,0 +1,74 @@
+/*  display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        margin: 50px;
+*/
+.allMeetings{
+    display: flex;
+    flex-wrap: wrap-reverse;
+
+}
+
+.meeting{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+
+}
+.addMeeting{
+    position: absolute;
+    margin : auto;
+    background-color:rgb(255, 253, 253);
+}
+h6 {
+    margin-top: 0;
+}
+
+h4{
+    margin-bottom: 0;
+}
+.red-background {
+    border: 2px solid;
+    border-width: 5px;
+    margin: 20px;
+
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    background-color: #ff4646;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+  }
+  
+  .orange-background {
+    border: 2px solid;
+    border-width: 5px;
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    background-color: rgb(255, 115, 0);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .green-background {
+    border: 2px solid;
+    border-width: 5px;
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+
+    border: 2px solid #ccc;
+    background-color: #a3ffa3;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+ 
